@@ -33,16 +33,16 @@ header > a:link{
   font-weight: 550;
   letter-spacing: 2px;
 }
+header > a:visited{
+  color: white;
+  text-decoration: none;
+}
 header > a:hover{
   color: #eee8ec;
   text-decoration: underline;
 }
 header > a:active{
   color: #e4c9db;
-}
-header > a:visited{
-  color: white;
-  text-decoration: none;
 }
 /*Home*/
 .banner{
