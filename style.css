@@ -40,6 +40,10 @@ header > a:hover{
 header > a:active{
   color: #e4c9db;
 }
+header > a:visited{
+  color: white;
+  text-decoration: none;
+}
 /*Home*/
 .banner{
   display: flex;
