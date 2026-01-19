@@ -173,7 +173,7 @@ header > a:active{
   background-color: #ffd9df;
   margin: 2em auto;
   padding: 1.5em;
-  border-radius: 12px;
+  border-radius: 25px;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.08);
 }
 
@@ -216,7 +216,7 @@ header > a:active{
   background-color: #f8f5ed;
   margin: 20px;
   padding: 15px;
-  width: 100%;
+  width: 1260px;
 }
 
 .iframe_embed{
@@ -239,11 +239,13 @@ header > a:active{
 }
 
 .pro_about h1{
-  margin: 0;
+  margin-top: 10px;
+  font-size: 30px;
 }
 
 .pro_about p{
-  margin-top: 10px;
+  margin: 28px;
+  font-size:20px;
 }
 
 
@@ -335,4 +337,8 @@ body.contact{
 }
 .contacts > div > a:visited{
   color: #5a70e2;
+}
+
+.bullet_list li{
+  text-align: left;
 }
