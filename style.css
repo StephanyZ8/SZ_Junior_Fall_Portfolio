@@ -168,10 +168,17 @@ header > a:active{
   background-color: #f8f5ed;
   margin: 20px;
   padding: 15px;
+  width: 100%;
 }
 
 .pro_secs > div:first-child{
+  display: flex;
+  flex-shrink: 1;
   margin-right: 20px;
+  background-color: white;
+  border-style: solid;
+  border-width: 0.1px;
+  border-radius: 25px;
 }
 
 .pro_about{
