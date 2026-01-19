@@ -171,7 +171,7 @@ header > a:active{
   width: 100%;
 }
 
-.pro_secs > div:first-child{
+.iframe_embed{
   display: flex;
   flex-shrink: 1;
   margin-right: 20px;
