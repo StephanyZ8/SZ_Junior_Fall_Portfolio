@@ -210,13 +210,17 @@ header > a:active{
 .pro_secs{
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
   border-radius: 25px;
   background-color: #f8f5ed;
-  margin: 20px;
+  margin-top: 20px;
   padding: 15px;
-  width: 1260px;
+}
+
+.pro_secs > div{
+  display: flex;
+  width: 50%;
+  justify-content: center;
 }
 
 .iframe_embed{
